@@ -1,12 +1,11 @@
 <div class="sidebar">
     
     <h5 class="header">
-        Algo Page
+        {{header}}
     </h5>
     <ul>
-        <li class="link">
-            Bubble Sort
-
+        <li *ngFor="let url of links" class="link">
+            <a href="">{{url.text}}</a>
         </li>
     </ul>
 

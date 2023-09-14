@@ -4,7 +4,7 @@ body{
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 
@@ -13,3 +13,5 @@ a{
     width: 20em;
     
 }
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

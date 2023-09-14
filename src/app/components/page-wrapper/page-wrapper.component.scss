@@ -1,0 +1,17 @@
+
+// Move 350 px to the right, and 5em down
+*{
+    position: absolute;
+    top: 5em;
+    left: 14em;
+    padding: 2em;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.tip{
+    background: #f1faee;
+    color: #1d3557;
+    border-radius: 5px;
+    padding: 1em;
+}

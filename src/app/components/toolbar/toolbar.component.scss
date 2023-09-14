@@ -5,7 +5,14 @@
 
     a{
         text-decoration: none;
-        display: inline-block;
         padding: 0.5em;
+        vertical-align: middle;
+        color: #1d3557;
+    }
+
+    img{
+        height: 2em;
+        vertical-align: middle;
+        margin-bottom: 0.5em;
     }
 }

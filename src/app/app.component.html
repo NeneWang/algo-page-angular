@@ -4,49 +4,5 @@
 <app-toolbar/>
 
 <app-page-wrapper>
-  <div>
-    
-    <h1>Bubble Sort</h1>
-    <img class="content-img" src="https://miro.medium.com/v2/resize:fit:554/1*ndTs2LbN6hKmH1-v-8_kEQ.gif" alt="Bubble Sort">
-    <h3>Análisis de Complejidad del Bubble Sort</h3>
-    
-    <table class="table table-stripped">
-      <thead>
-        <tr>
-          <th>Mejor Caso</th>
-          <th>Caso Promedio</th>
-          <th>Peor Caso</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>O(n)</td>
-          <td>O(n)</td>
-          <td>O(n^2)</td>
-        </tr>
-    </table>
-
-    <h3>Peor Caso:</h3>
-    <p>En el peor caso, Bubble Sort debe realizar <strong>n - 1</strong> comparaciones y <strong>n - 1</strong> intercambios, donde "n" es el número de elementos en la lista. Esto se debe a que el algoritmo compara y posiblemente intercambia cada par de elementos en la lista en cada pasada. En cada pasada, el elemento más grande "burbujea" hacia la parte derecha de la lista.</p>
-    
-    <p>La cantidad total de comparaciones e intercambios necesarios para ordenar la lista de "n" elementos en el peor caso se puede expresar como:</p>
-
-    <ul>
-        <li>Comparaciones: <strong>(n - 1) + (n - 2) + ... + 1 = (n * (n - 1)) / 2</strong></li>
-        <li>Intercambios: <strong>(n - 1)</strong></li>
-    </ul>
-
-    <p>Por lo tanto, en el peor caso, la complejidad de tiempo de Bubble Sort es <strong>O(n^2)</strong>, ya que el término dominante es n^2.</p>
-
-    <h3>Mejor Caso:</h3>
-    <p>El mejor caso ocurre cuando la lista ya está ordenada. En este caso, Bubble Sort solo necesita hacer un pase a través de la lista para verificar que no se realicen intercambios. El número de comparaciones será igual a <strong>n - 1</strong>, pero no se realizarán intercambios. Por lo tanto, en el mejor caso, la complejidad de tiempo es <strong>O(n)</strong>.</p>
-
-    <h3>Caso Promedio:</h3>
-    <p>El caso promedio es difícil de determinar con precisión, ya que depende de la distribución de los elementos en la lista. Sin embargo, en promedio, Bubble Sort sigue realizando <strong>O(n^2)</strong> comparaciones e intercambios. Esto lo hace ineficiente para listas grandes.</p>
-
-    <p>En resumen, Bubble Sort es un algoritmo de ordenamiento ineficiente en términos de tiempo, especialmente para listas grandes, debido a su complejidad cuadrática. Hay algoritmos de ordenamiento más eficientes, como Quick Sort, Merge Sort y Heap Sort, que suelen ser preferibles en la mayoría de las situaciones. Bubble Sort se utiliza principalmente con fines educativos o cuando se tiene una cantidad muy pequeña de datos para ordenar.</p>
-
-  </div>
+<router-outlet></router-outlet>
 </app-page-wrapper>
-
-

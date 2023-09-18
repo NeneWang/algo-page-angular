@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class SidebarComponent {
   header = 'Documentacion de Algoritmos';
   links: Array<{ text: string, path: string }> = [
-    { text: 'Bubble Sort', path: '#' },
-    { text: 'Merge Sort', path: '#' }
+    { text: 'Bubble Sort', path: 'bubble-sort' },
+    { text: 'Merge Sort', path: 'merge-sort' }
   ];
 }
